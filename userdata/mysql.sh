@@ -29,9 +29,9 @@ sudo systemctl restart mariadb
 
 
 #starting the firewall and allowing the mariadb to access from port no. 3306
-sudo systemctl start firewalld
-sudo systemctl enable firewalld
-sudo firewall-cmd --get-active-zones
-sudo firewall-cmd --zone=public --add-port=3306/tcp --permanent
-sudo firewall-cmd --reload
-sudo systemctl restart mariadb
+#sudo systemctl start firewalld
+#sudo systemctl enable firewalld
+#sudo firewall-cmd --get-active-zones
+#sudo firewall-cmd --zone=public --add-port=3306/tcp --permanent
+#sudo firewall-cmd --reload
+#sudo systemctl restart mariadb
