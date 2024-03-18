@@ -23,4 +23,5 @@ Then look for the file :
 - > mysql -u <user_name> -p accounts < accountsdb.sql
 
 ## System Architecture
-[](./aws_lift_%26_shift.drawio.svg)
+![](./aws_lift_&_shift.svg)
+
